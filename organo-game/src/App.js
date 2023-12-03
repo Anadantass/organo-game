@@ -69,7 +69,7 @@ function App() {
       nome={genero.nome} 
       corPrimaria={genero.corPrimaria} 
       corSecundaria={genero.corSecundaria}
-      games={games}
+      games={games.filter(game => game.genero === genero.nome)}
       />)}
     </div>
   );

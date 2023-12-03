@@ -2,7 +2,7 @@ import './Game.css'
 
 const Game = ({nome, imagem, studio}) =>{
     return(
-        <div className='game'>
+    <div className='games'>
             <div className='cabecalho'>
                 <img src={imagem} alt={nome}/>
             </div>

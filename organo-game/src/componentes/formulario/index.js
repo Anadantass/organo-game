@@ -19,6 +19,7 @@ const Formulario = (props) =>{
             imagem,
             genero
         })
+        console.log(props.genero)
     }
 
     return(
